@@ -1,12 +1,74 @@
-# React + Vite
+🌦️ WeatherApp
+A sleek and responsive React-based weather application that provides real-time weather data and a 5-day forecast using the OpenWeatherMap API. Built with React, Tailwind CSS, and React Icons for a clean and interactive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🌍 City Search with dynamic weather updates
 
-Currently, two official plugins are available:
+🌡️ Current Weather including:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Temperature (Celsius)
 
-## Expanding the ESLint configuration
+Feels Like
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Humidity
+
+Wind Speed
+
+🌄 Sunrise and Sunset times
+
+📅 5-Day Forecast with:
+
+Daily icons
+
+Daily average temperatures
+
+Weather conditions
+
+🎨 Beautiful, responsive UI with Tailwind CSS
+
+🧭 Local time and full date display
+
+🧩 Technologies Used
+React
+
+Axios
+
+Tailwind CSS
+
+OpenWeatherMap API
+
+React Icons
+
+📁 Project Structure
+arduino
+Copy
+Edit
+weather-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.js        // Handles search, API calls, and layout
+│   │   └── MainComp.js      // Displays weather and forecast data
+│   ├── App.js
+│   └── index.js
+├── tailwind.config.js
+├── package.json
+└── README.md
+
+🧠 How It Works
+Header.js
+Manages the app’s state (city, current data, forecast)
+
+Fetches weather and forecast data on city search or load
+
+Passes the data to MainComp
+
+MainComp.js
+Displays current weather data including temperature, wind, humidity, and icon
+
+Formats sunrise and sunset times
+
+Filters the forecast to show daily noon values
+
+Shows a 5-day preview with icons, temperatures, and weather summaries
+
