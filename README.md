@@ -41,18 +41,29 @@ React Icons
 
 📁 Project Structure
 weather-app/
+
 ├── public/
+
 ├── src/
+
 │   ├── components/
-│   │   ├── Header.js        // Handles search, API calls, and layout
-│   │   └── MainComp.js      // Displays weather and forecast data
+
+│   │   ├── Header.js // Handles search, API calls, and layout
+
+│   │   └── MainComp.js // Displays weather and forecast data
+
 │   ├── App.js
+
 │   └── index.js
+
 ├── tailwind.config.js
+
 ├── package.json
+
 └── README.md
 
 🧠 How It Works
+
 Header.js
 Manages the app’s state (city, current data, forecast)
 
@@ -69,3 +80,6 @@ Filters the forecast to show daily noon values
 
 Shows a 5-day preview with icons, temperatures, and weather summaries
 
+output:
+
+![Image](https://github.com/user-attachments/assets/98897d50-ebd0-4ebc-8a09-f46c074ecd81)
