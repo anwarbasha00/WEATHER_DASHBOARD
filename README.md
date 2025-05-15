@@ -95,3 +95,4 @@ Tablet view
 Mobile view
 
 ![Image](https://github.com/user-attachments/assets/5fc607ce-7462-4fa3-bc43-6325b33920cd)
+![Image](https://github.com/user-attachments/assets/52ade484-63bc-432e-ba19-d591265f4911)
