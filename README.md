@@ -1,84 +1,86 @@
+Company:Codetech It Solutions
+
+Name:Sk Anwar Basha
+
+Intern ID :CT04DM650
+
+Domain: React.js Web Development
+
+Duration: 4 weeks
+
+Mentor: Neela Santosh
+
 🌦️ WeatherApp
-A sleek and responsive React-based weather application that provides real-time weather data and a 5-day forecast using the OpenWeatherMap API. Built with React, Tailwind CSS, and React Icons for a clean and interactive UI.
 
-🚀 Features
-🌍 City Search with dynamic weather updates
+WeatherApp is a responsive and user-friendly weather forecast application built using React, Tailwind CSS, and the OpenWeatherMap API. It allows users to search for any city and view real-time weather data along with a 5-day forecast. The app displays current temperature, weather conditions, humidity, wind speed, sunrise/sunset times, and a visually appealing multi-day outlook with icons.
 
-🌡️ Current Weather including:
+📌 Features
 
-Temperature (Celsius)
+Search by City: Type a city name and view its weather instantly.
 
-Feels Like
+Current Weather Display:
 
-Humidity
+Temperature in Celsius
 
-Wind Speed
+"Feels Like" temperature
 
-🌄 Sunrise and Sunset times
+Humidity percentage
 
-📅 5-Day Forecast with:
+Wind speed (converted from m/s to km/h)
 
-Daily icons
+Weather description and icon
 
-Daily average temperatures
+Location and local time
 
-Weather conditions
+Sunrise and Sunset Times: Displays in readable 12-hour format.
 
-🎨 Beautiful, responsive UI with Tailwind CSS
+5-Day Forecast:
 
-🧭 Local time and full date display
+Midday temperatures for the next five days
 
-🧩 Technologies Used
-React
+Daily weather icons and conditions
 
-Axios
+Responsive UI: Mobile-first design with Tailwind CSS
 
-Tailwind CSS
+Real-Time Updates: Automatically fetches and updates data when a new city is searched.
 
-OpenWeatherMap API
+⚙️ Technologies Used
 
-React Icons
+React: Component-based UI development
 
-📁 Project Structure
-weather-app/
+Axios: For making API requests
 
-├── public/
+Tailwind CSS: Utility-first styling framework
 
-├── src/
+React Icons: To display weather and UI icons
 
-│   ├── components/
-
-│   │   ├── Header.js // Handles search, API calls, and layout
-
-│   │   └── MainComp.js // Displays weather and forecast data
-
-│   ├── App.js
-
-│   └── index.js
-
-├── tailwind.config.js
-
-├── package.json
-
-└── README.md
+OpenWeatherMap API: Source for weather and forecast data
 
 🧠 How It Works
 
-Header.js
-Manages the app’s state (city, current data, forecast)
+The app uses two API endpoints from OpenWeatherMap:
 
-Fetches weather and forecast data on city search or load
+Current Weather Data API: Retrieves real-time conditions
 
-Passes the data to MainComp
+5-Day Forecast API: Provides weather predictions every 3 hours
 
-MainComp.js
-Displays current weather data including temperature, wind, humidity, and icon
+From the forecast data, the app filters out one data point per day (specifically at 12 PM) to simplify the display and maintain visual consistency. The data is passed from the Header.js component to MainComp.js, which renders the current and forecast weather information dynamically.
 
-Formats sunrise and sunset times
+Tailwind CSS is used throughout for a clean, responsive layout. Weather icons and data are matched using the OpenWeatherMap-provided icon codes and formatted using helper libraries like toLocaleTimeString() for time display.
 
-Filters the forecast to show daily noon values
+📁 File Structure
 
-Shows a 5-day preview with icons, temperatures, and weather summaries
+src/
+
+├── components/
+
+│   ├── Header.js      // Input field, API calls, and layout
+
+│   └── MainComp.js    // Displays current and forecast data
+
+├── App.js
+
+└── index.js
 
 output:
 
