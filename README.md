@@ -91,3 +91,7 @@ Laptop and Desktop view
 Tablet view
 
 ![Image](https://github.com/user-attachments/assets/df2a594a-5989-4ea8-9bf4-167df01827d9)
+
+Mobile view
+
+![Image](https://github.com/user-attachments/assets/5fc607ce-7462-4fa3-bc43-6325b33920cd)
