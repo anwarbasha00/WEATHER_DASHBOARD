@@ -84,4 +84,10 @@ src/
 
 output:
 
+Laptop and Desktop view
+
 ![Image](https://github.com/user-attachments/assets/98897d50-ebd0-4ebc-8a09-f46c074ecd81)
+
+Tablet view
+
+![Image](https://github.com/user-attachments/assets/df2a594a-5989-4ea8-9bf4-167df01827d9)
