@@ -40,9 +40,6 @@ OpenWeatherMap API
 React Icons
 
 📁 Project Structure
-arduino
-Copy
-Edit
 weather-app/
 ├── public/
 ├── src/
