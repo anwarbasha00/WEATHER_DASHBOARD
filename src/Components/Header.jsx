@@ -60,7 +60,7 @@ const Header = () => {
             type="text"
             className='w-[80%] lg:w-[80%] h-[80%] border-2 rounded-l-2xl p-[20px] text-2xl bg-white'
             id='inp'
-            placeholder={city}
+            placeholder="search city--"
           />
           <button
             className='w-[20%] lg:w-[10%] h-[80%] border-2 rounded-r-2xl cursor-pointer bg-white'
