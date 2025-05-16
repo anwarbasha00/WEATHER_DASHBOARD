@@ -57,7 +57,7 @@ const Header = () => {
         {/* Search Input Field */}
         <div className='max-w-full h-[10vh] sm:col-span-1 md:col-span-2 lg:col-span-2 flex items-center px-[10px]'>
           <input
-            type="text"
+            type="search"
             className='w-[80%] lg:w-[80%] h-[80%] border-2 rounded-l-2xl p-[20px] text-2xl bg-white'
             id='inp'
             placeholder="search city--"
